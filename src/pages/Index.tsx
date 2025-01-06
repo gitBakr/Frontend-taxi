@@ -2,6 +2,8 @@ import { Header } from "@/components/Header";
 import { BookingForm } from "@/components/BookingForm";
 import { Benefits } from "@/components/Benefits";
 import { HowItWorks } from "@/components/HowItWorks";
+import { PopularDestinations } from "@/components/PopularDestinations";
+import { Testimonials } from "@/components/Testimonials";
 
 const Index = () => {
   return (
@@ -40,6 +42,12 @@ const Index = () => {
           <HowItWorks />
         </div>
       </section>
+
+      {/* Popular Destinations Section */}
+      <PopularDestinations />
+
+      {/* Testimonials Section */}
+      <Testimonials />
     </div>
   );
 };
