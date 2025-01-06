@@ -26,6 +26,22 @@ const themes = {
     "primary-foreground": "#FFFFFF",
     "secondary-foreground": "#FFFFFF",
     "accent-foreground": "#FFFFFF",
+  },
+  sunset: {
+    primary: "#F59E0B", // Orange doré
+    secondary: "#EC4899", // Rose vif
+    accent: "#6366F1", // Indigo
+    "primary-foreground": "#FFFFFF",
+    "secondary-foreground": "#FFFFFF",
+    "accent-foreground": "#FFFFFF",
+  },
+  ocean: {
+    primary: "#0284C7", // Bleu océan
+    secondary: "#059669", // Vert marin
+    accent: "#7C3AED", // Violet profond
+    "primary-foreground": "#FFFFFF",
+    "secondary-foreground": "#FFFFFF",
+    "accent-foreground": "#FFFFFF",
   }
 };
 
