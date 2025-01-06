@@ -4,6 +4,7 @@ import { Benefits } from "@/components/Benefits";
 import { HowItWorks } from "@/components/HowItWorks";
 import { PopularDestinations } from "@/components/PopularDestinations";
 import { Testimonials } from "@/components/Testimonials";
+import { ThemeSwitcher } from "@/components/ThemeSwitcher";
 
 const Index = () => {
   return (
@@ -48,6 +49,9 @@ const Index = () => {
 
       {/* Testimonials Section */}
       <Testimonials />
+
+      {/* Theme Switcher */}
+      <ThemeSwitcher />
     </div>
   );
 };
